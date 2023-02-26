@@ -45,10 +45,11 @@ nav{
 nav ul li ul.sub-nav {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
-  width: 7.9%;
-  height: 206px;
+  left: 65.5%;
+  height: 180px;
   border-radius: 15px;
   background: white;
+  padding-top: .6%;
   padding-left: 1%;
   padding-right: 1%;
   border: none;
@@ -63,18 +64,18 @@ nav ul li ul.sub-nav li {
   color: #eee;
   font-size: 14px;
   width: 100%;
-  padding: 15px 0;
+  padding: 10px 0;
   z-index: 1000;
 }
 
 nav ul li ul.sub-nav li a{
   text-decoration: none;
-  font-weight: 500;
+  color: #0082e6;
+  font-weight: 800;
 }
 
-nav ul li ul.sub-nav li:hover {
-  color: #ea3b50;
-  box-shadow: 0 0;
+nav ul li ul.sub-nav li a:hover {
+  color: black;
 }
 
 nav ul li:hover ul.sub-nav {
@@ -83,12 +84,13 @@ nav ul li:hover ul.sub-nav {
 }
 /*----*/
 
-nav ul li a.active, nav ul li a:hover{
+nav ul li > a.active, nav ul li > a:hover {
     background: #ebf6ff;
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: .5s;
   }
+
   .checkbtn{
     font-size: 30px;
     color: rgb(6, 6, 6);
